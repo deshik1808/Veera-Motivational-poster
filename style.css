@@ -1,0 +1,102 @@
+/* ========== Mobile-First Base Styles ========== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+body {
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container1 {
+    margin-top: 40px;
+}
+
+.header-text {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    padding: 0 10px;
+}
+
+.image-container {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+
+.image-container img {
+    width: 100%;
+    border: 5px solid white;
+    display: block;
+}
+
+p {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.caption-text {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+.container2 {
+    margin-top: 50px;
+}
+
+/* ========== Tablet and up (min-width: 600px) ========== */
+@media (min-width: 600px) {
+    .container1 {
+        margin-top: 60px;
+    }
+
+    .header-text {
+        font-size: 1.5rem;
+    }
+
+    .image-container {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+/* ========== Desktop (min-width: 900px) ========== */
+@media (min-width: 900px) {
+    .container1 {
+        margin-top: 100px;
+    }
+
+    .header-text {
+        font-size: 1.8rem;
+    }
+
+    .image-container {
+        width: 50%;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .caption-text {
+        font-size: 1.2rem;
+    }
+}
